@@ -1,0 +1,35 @@
+.inputFrame {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  width: 64rem;
+  height: 6.4rem;
+  padding: 0rem 1.6rem;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px solid #eceff4;
+  border-radius: 1.2rem;
+  background: #eceff4;
+  color: #abb8ce;
+}
+.errorMessage {
+  color: #ff6577;
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+.label {
+  color: #2d394e;
+  font-family: Pretendard;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem; /* 160% */
+}

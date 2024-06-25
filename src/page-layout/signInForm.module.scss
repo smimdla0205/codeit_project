@@ -1,0 +1,39 @@
+.signInForm {
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginButton {
+  display: flex;
+  width: 64rem;
+  height: 6.4rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  background: #cbd3e1;
+  border: 1px solid #eceff4;
+
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+
+  &:hover {
+    background: #000; // 활성화된 상태에서의 버튼 색상
+  }
+}
+.errorMessage {
+  display: flex;
+  align-items: right;
+  color: var(--State-error, #ff6577);
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
